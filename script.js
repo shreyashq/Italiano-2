@@ -19,8 +19,9 @@ const observer = new IntersectionObserver((entries) => {
   
   function menuToggle() {
     if (navbarlinks.style.maxHeight == "0px") {
+      navbarlinks.style.display = "block";
       navbarlinks.style.maxHeight = "300px";
-      home.style.marginTop = "calc(100% + 62.5px)";
+      home.style.marginTop = "calc(100% + 62.4px)";
     } else {
       navbarlinks.style.maxHeight = "0px";
       home.style.marginTop = "0";

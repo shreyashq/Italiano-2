@@ -66,6 +66,7 @@
   @media (max-width: 768px) {
     .navbar-links {
       position: absolute;
+      display: none;
       top: 49px;
       left: 0;
       right: 0;
@@ -80,6 +81,10 @@
       overflow: hidden;
       transform: translateY(2%);
       transition: all 0.5s ease;
+    }
+
+    .active{
+      display: block;
     }
     .navbar-links li {
       padding: 20px;
